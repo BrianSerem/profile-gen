@@ -1,7 +1,9 @@
-[![Build Status](https://travis-ci.com/mnswaleh/bootfront.svg?branch=develop)](https://travis-ci.com/mnswaleh/bootfront) 
-[![Coverage Status](https://coveralls.io/repos/github/mnswaleh/bootfront/badge.svg)](https://coveralls.io/github/mnswaleh/bootfront)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hosting
+This app is hosted here: 
+https://sendit-react-app.herokuapp.com/
 
 ## Available Scripts
 
