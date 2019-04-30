@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import { fetchParcels } from "./actions/index"
+import { fetchParcels } from "./actions/index";
+import CancelOrder from './cancelOrder';
 
 
 export class OrdersList extends Component {
@@ -15,7 +16,9 @@ export class OrdersList extends Component {
   componentWillMount() {
     this.props.fetchParcels();
 }
-
+  onCancelOrder = () => {
+    console.log("i was summoned")
+  }
   render() {
     return (
       <div>
@@ -27,6 +30,7 @@ export class OrdersList extends Component {
               <th scope="col">Order_No</th>
               <th scope="col">Destination</th>
               <th scope="col">Status</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -36,6 +40,8 @@ export class OrdersList extends Component {
                         <td>{row.parcel_id}</td>
                         <td>{row.destination}</td>
                         <td>{row.status}</td>
+                        <td><CancelOrder onCancelOrder={this.onCancelOrder}/></td>
+                        
                     </tr>
                 ))}
             </tbody>

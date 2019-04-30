@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { Form, Row, Col, Button } from 'react-bootstrap'
 import { addOrder } from "./actions/index"
+import cancelOrder from './cancelOrder'
 
 class Order extends Component {
     constructor() {
@@ -37,6 +38,7 @@ class Order extends Component {
     render() {
         return (
             <div>
+                <cancelOrder />
                 <h2 className="text-center">Create Order</h2>
 
                 <Form onSubmit={this.handleSubmit}>

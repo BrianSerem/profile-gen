@@ -69,7 +69,7 @@
     "express": "^4.16.4",
     "node-fetch": "^2.3.0",
     "react": "^16.8.5",
-    "react-bootstrap": "^1.0.0-beta.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",

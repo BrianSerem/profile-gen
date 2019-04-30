@@ -1,6 +1,4 @@
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Hosting
 This app is hosted here: 
 https://sendit-react-app.herokuapp.com/
